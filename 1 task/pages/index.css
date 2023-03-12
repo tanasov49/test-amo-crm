@@ -1,0 +1,8 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/time-placeholder/time-placeholder.css);
+@import url(../blocks/time-placeholder/__input/time-placeholder__input.css);
+@import url(../blocks/time-placeholder/__button/time-placeholder__button.css);
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer-item/timer-item.css);
+@import url(../blocks/timer-item/__time/timer-item__time.css);
+@import url(../blocks/timer-item/__text/timer-item__text.css);

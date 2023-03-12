@@ -1,0 +1,10 @@
+.time-placeholder__button {
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #c07171;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+}

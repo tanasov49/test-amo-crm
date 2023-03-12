@@ -1,0 +1,27 @@
+.copyright-footer {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    @media screen and (max-width: 1024px) and (min-width: 769px) {
+        text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+        text-align: left;
+    }
+}
+.copyright-footer__text {
+    @include font400Inter;
+    font-size: 12px;
+    line-height: 15px;
+    color: $colorWhiteText;
+    margin: 0;
+}
+.copyright-footer__link {
+    @include font400Inter;
+    font-size: 12px;
+    line-height: 15px;
+    color: $colorWhiteText;
+    @include hoverLinks;
+}

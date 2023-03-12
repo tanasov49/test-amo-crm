@@ -1,0 +1,30 @@
+.links-nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        gap: 10px;
+    }
+}
+.link-item {
+    margin: 0;
+    @include font500Inter;
+    list-style-type: none;
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        &:nth-child(5) {
+            display: none;
+        }
+    }
+}
+.link-item__url {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: $colorWhiteText;
+    @include hoverLinks;
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}

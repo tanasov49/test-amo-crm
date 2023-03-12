@@ -1,0 +1,33 @@
+.icons-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.icons-links_header {
+    gap: 34px;
+}
+.icons-links_footer {
+    gap: 10px;
+}
+.icon-link {
+
+}
+.icon-link__url {
+    display: flex;
+    align-items: center;
+    svg {
+        width: 20px;
+        height: 20px;
+        fill: $colorWhiteText;
+        transition: fill 0.7s;
+        &:hover {
+            fill: $colorWhiteTextHover;
+        }
+        @media screen and (max-width: 768px) {
+            width: 24px;
+            height: 24px;
+        } 
+    }
+    
+}

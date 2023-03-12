@@ -1,0 +1,49 @@
+@mixin font300 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+@mixin font400 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+@mixin font500 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+@mixin font600 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+@mixin font700 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+@mixin font900 {
+    font-family: 'Montserrat';
+    font-weight: 900; 
+}
+@mixin font400Inter {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+@mixin font500Inter {
+    font-family: 'Inter';
+    font-weight: 500;
+}
+@mixin font700Inter {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+@mixin font900Inter {
+    font-family: 'Inter';
+    font-weight: 900;
+}
+@mixin hoverLinks {
+    transition: color 0.7s;
+    &:hover {
+        color: $colorWhiteTextHover;
+    }
+    &:focus {
+        color: $colorWhiteTextHover;
+    }
+}

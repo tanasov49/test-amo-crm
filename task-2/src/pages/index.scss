@@ -1,0 +1,14 @@
+@import '../vendor/normalize.scss';
+@import url(../fonts/fonts.scss);
+body {
+    background: $bcgPage;
+}
+.page {
+    max-width: $widthPage;
+    margin: 0 auto;
+    background-image: url(../images/bcg-page.png);
+    background-size: cover;
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        background-image: none;
+    }
+}

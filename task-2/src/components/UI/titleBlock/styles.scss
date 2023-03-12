@@ -1,0 +1,13 @@
+.title-block {
+    @include font700Inter;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $colorTitleBlock;
+    margin: 0;
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

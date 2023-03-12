@@ -1,0 +1,16 @@
+.about-footer-links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    gap: 10px;
+    padding: 20px 0 0 0;
+}
+.about-footer-item__link {
+    text-decoration: none;
+    @include font400Inter;
+    font-size: 16px;
+    line-height: 19px;
+    color: $colorWhiteText;
+    @include hoverLinks;
+}

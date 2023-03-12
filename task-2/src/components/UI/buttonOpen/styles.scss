@@ -1,0 +1,31 @@
+.button-open {
+    @include font500Inter;
+    font-size: 16px;
+    line-height: 19px;
+    color: $colorWhiteText;
+    width: 262px;
+    height: 61px;
+    padding: 21px 34px;
+    background: $bcgButtonOpen;
+    border: none;
+    outline: none;
+    transition: background 0.7s, color 0.7s;
+    &:hover {
+        background: $bcgButtonOpenHover;
+        color: $colorWhiteTextHover;
+    }
+    &:focus {
+        background: $bcgButtonOpenHover;
+        color: $colorWhiteTextHover;
+    }
+}
+.button-open_descriptions {
+    align-self: flex-end;
+    margin: 61px 0 0 0;
+    @media screen and (max-width: 1024px) and (min-width: 769px) {
+        align-self: center;
+    }
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
